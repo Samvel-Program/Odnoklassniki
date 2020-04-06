@@ -99,6 +99,7 @@ public class CorrectData {
         Save.click();
 
 
+
         //  WebElement YourName = findElement(By.xpath("//span[@class='input-e' and text()='Пожалуйста, укажите ваше имя.']"));
         // Assert.assertTrue("Ошибка", YourName.isDisplayed());
         //  Assert.assertEquals("Пожалуйста, укажите ваше имя.", YourName.getText());
