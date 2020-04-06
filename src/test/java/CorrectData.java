@@ -33,17 +33,17 @@ public class CorrectData {
         WebElement Login = findElement(By.xpath("//div[@class='it_w']//input[@name='st.email']"));
         Login.click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        Login.sendKeys("+79260401669");
+        Login.sendKeys("********");
 
         WebElement Password = findElement(By.xpath("//div[@class='it_w']//input[@name='st.password']"));
-        Password.sendKeys("ghtdtlvtldtl");
+        Password.sendKeys("**********");
 
         WebElement Entrance = findElement(By.xpath("//div[@class='mt-5x']//input[@value='Войти в Одноклассники']"));
         Entrance.click();
 
 
-        //  WebElement Icon = findElement(By.id("topPanelLeftCorner"));
-        // Assert.assertTrue("Страница не загрузилась https://ok.ru/", Icon.isDisplayed());
+        WebElement Icon = findElement(By.id("topPanelLeftCorner"));
+        Assert.assertTrue("Страница не загрузилась https://ok.ru/", Icon.isDisplayed());
 
         driver.get("https://ok.ru/settings");
         driver.manage().window().maximize();
@@ -84,6 +84,7 @@ public class CorrectData {
 
         WebElement Hometown = findElement(By.xpath("//div[@class = 'it_w citycountry_input search-input search-input_searching']//input[@name='fr.cityBSugg_SearchInput']"));
         Hometown.click();
+        Hometown.clear();
         Hometown.sendKeys("Москва, Россия");
         sleep(1000);
         CityList = driver.findElements(By.xpath("//li[@class='suggest_li']"));
@@ -99,10 +100,9 @@ public class CorrectData {
         Save.click();
 
 
-
-        //  WebElement YourName = findElement(By.xpath("//span[@class='input-e' and text()='Пожалуйста, укажите ваше имя.']"));
-        // Assert.assertTrue("Ошибка", YourName.isDisplayed());
-        //  Assert.assertEquals("Пожалуйста, укажите ваше имя.", YourName.getText());
+        WebElement Сhanges = findElement(By.xpath("//div[@id='notifyPanel_msg']"));
+        Assert.assertTrue("Ошибка", Сhanges.isDisplayed());
+        Assert.assertEquals("Ваши изменения сохранены.", Сhanges.getText());
 
 
     }

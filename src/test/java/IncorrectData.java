@@ -34,10 +34,10 @@ public class IncorrectData {
         WebElement Login = findElement(By.xpath("//div[@class='it_w']//input[@name='st.email']"));
         Login.click();
         WebDriverWait wait = new WebDriverWait(driver, 5);
-        Login.sendKeys("+79260401669");
+        Login.sendKeys("**********");
 
         WebElement Password = findElement(By.xpath("//div[@class='it_w']//input[@name='st.password']"));
-        Password.sendKeys("ghtdtlvtldtl");
+        Password.sendKeys("*********");
 
         WebElement Entrance = findElement(By.xpath("//div[@class='mt-5x']//input[@value='Войти в Одноклассники']"));
         Entrance.click();
@@ -67,6 +67,12 @@ public class IncorrectData {
         Select ChooseDay = new Select(driver.findElement(By.xpath("//select[@name='fr.bday']")));
         ChooseDay.selectByVisibleText("день");
 
+        Select ChooseMonth = new Select(driver.findElement(By.xpath("//select[@name='fr.bmonth']")));
+        ChooseMonth.selectByVisibleText("месяц");
+
+        Select ChooseYear = new Select(driver.findElement(By.xpath("//select[@name='fr.byear']")));
+        ChooseYear.selectByVisibleText("год");
+
 
         WebElement City = findElement(By.xpath("//div[@class = 'it_w citycountry_input search-input search-input_searching']//input[@name='fr.citySugg_SearchInput']"));
         City.click();
@@ -92,6 +98,11 @@ public class IncorrectData {
         WebElement YourSurname = findElement(By.xpath("//span[@class='input-e' and text()='Пожалуйста, укажите вашу фамилию.']"));
         Assert.assertTrue("Ошибка", YourSurname.isDisplayed());
         Assert.assertEquals("Пожалуйста, укажите вашу фамилию.", YourSurname.getText());
+
+
+        WebElement YourBirthday = findElement(By.xpath("//span[@class='input-e' and text()='День вашего рождения указан некорректно.']"));
+        Assert.assertTrue("Ошибка", YourBirthday.isDisplayed());
+        Assert.assertEquals("День вашего рождения указан некорректно.", YourBirthday.getText());
 
         WebElement YourCity = findElement(By.xpath("//span[@class='input-e' and text()='Пожалуйста, выберите место проживания из списка']"));
         Assert.assertTrue("Ошибка", YourCity.isDisplayed());

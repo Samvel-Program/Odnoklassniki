@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b90a2fde-bbe5-4440-a1e4-ea6c43e4f52c" name="Default Changelist" comment="" />
+    <list default="true" id="b90a2fde-bbe5-4440-a1e4-ea6c43e4f52c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CorrectData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CorrectData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IncorrectData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IncorrectData.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,28 +28,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/IncorrectData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+            <state relative-caret-position="374">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4284#4285#0" expanded="true" />
+                <element signature="e#4795#4796#0" expanded="true" />
+                <element signature="e#4885#4886#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CorrectData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="1262">
+              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3940#3941#0" expanded="true" />
-                <element signature="e#4030#4031#0" expanded="true" />
+                <element signature="e#3902#3903#0" expanded="true" />
+                <element signature="e#3992#3993#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +73,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/InorrectData.java" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/java/IncorrectData.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/IncorrectData.java" />
         <option value="$PROJECT_DIR$/src/test/java/CorrectData.java" />
       </list>
     </option>
@@ -144,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CorrectData">
+  <component name="RunManager" selected="JUnit.CorrectData.Positive">
     <configuration name="CorrectData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Odnoklassniki" />
       <option name="PACKAGE_NAME" value="" />
@@ -195,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CorrectData.Positive" />
         <item itemvalue="JUnit.CorrectData" />
         <item itemvalue="JUnit.IncorrectData.Negative" />
-        <item itemvalue="JUnit.CorrectData.Positive" />
-        <item itemvalue="JUnit.IncorrectData.Cinema" />
         <item itemvalue="JUnit.IncorrectData" />
+        <item itemvalue="JUnit.IncorrectData.Cinema" />
       </list>
     </recent_temporary>
   </component>
@@ -214,21 +219,17 @@
       <option name="presentableId" value="Default" />
       <updated>1586093399124</updated>
     </task>
+    <task id="LOCAL-00001" summary="Добавил код">
+      <created>1586189597106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586189597106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IncorrectData - 2020.04.06 at 01h 27m 07s.xml">
-      <configuration name="IncorrectData" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IncorrectData_Positive - 2020.04.06 at 01h 28m 21s.xml">
-      <configuration name="IncorrectData.Positive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IncorrectData_Positive - 2020.04.06 at 01h 30m 04s.xml">
-      <configuration name="IncorrectData.Positive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CorrectData_Negative - 2020.04.06 at 12h 05m 19s.xml">
-      <configuration name="CorrectData.Negative" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IncorrectData_Negative - 2020.04.06 at 17h 36m 41s.xml">
       <configuration name="IncorrectData.Negative" configurationId="JUnit" />
     </history-entry>
@@ -247,9 +248,22 @@
     <history-entry file="CorrectData - 2020.04.06 at 18h 53m 37s.xml">
       <configuration name="CorrectData" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IncorrectData - 2020.04.06 at 19h 26m 47s.xml">
+      <configuration name="IncorrectData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IncorrectData_Negative - 2020.04.06 at 19h 30m 48s.xml">
+      <configuration name="IncorrectData.Negative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorrectData - 2020.04.06 at 19h 36m 50s.xml">
+      <configuration name="CorrectData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CorrectData_Positive - 2020.04.06 at 19h 38m 15s.xml">
+      <configuration name="CorrectData.Positive" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12974203" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -260,12 +274,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298791" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298791" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3385147" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3298791" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3298791" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3298791" />
@@ -278,6 +292,11 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Добавил код" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил код" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -312,25 +331,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CorrectData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/IncorrectData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="374">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3940#3941#0" expanded="true" />
-            <element signature="e#4030#4031#0" expanded="true" />
+            <element signature="e#4795#4796#0" expanded="true" />
+            <element signature="e#4885#4886#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IncorrectData.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CorrectData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        <state relative-caret-position="1262">
+          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4284#4285#0" expanded="true" />
+            <element signature="e#3902#3903#0" expanded="true" />
+            <element signature="e#3992#3993#0" expanded="true" />
           </folding>
         </state>
       </provider>
